@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.image-container {
+    background-image: url('plant.jpg');
+    width: 33vw;
+    height:100vh
+}
+
+.form {
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.service {
+    margin-bottom:0;
+    padding-bottom:0
+}
+
+.sign {
+    margin-top:0;
+    padding-top:0
+}
+
+.container {
+    display: grid;
+    margin-right:5rem;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr ;
+/*     grid-template-areas: 
+    "fn ln"
+    "e p" 
+    "pa c"; */
+
+}
+
+.first-name {
+    grid-area: fn
+}
+
+.last-name {
+    grid-area: ln
+}
+
+.email {
+    grid-area: e
+}
+
+.phone {
+    grid-area: p
+}
+
+.password {
+    grid-area: pa;
+}
+
+.confirm {
+    grid-area: c;
+}
